@@ -14,6 +14,8 @@ The package documented contains a total of three simple Python files, two of whi
 
 In addition to the package files, the Git repository contains also other files used for the training session.
 
+Slides are found under http://hilpisch.com/tools_skills_dist.pdf.
+
 ##  Documentation
 
 ### Sphinx
@@ -26,7 +28,7 @@ A valuable add-on is the `nbsphinx` extension which allows you to directly inclu
 
 On the shell, create an environment with `conda`:
 
-    conda create -n docu-pylib python=3.6 ipython
+    conda create -n docu-pylib python=3.6 ipython jupyter pandoc
     conda activate docu-pylib
     pip install sphinx nbsphinx
 
@@ -34,12 +36,25 @@ On the shell, create an environment with `conda`:
 
 Clone the Github repository to your local working folder:
 
-    git clone --depth=1 http://github.com/yhilpisch/documentation
+    git clone http://github.com/yhilpisch/documentation
     
-Navigate to the repository folder and install the package:
+Navigate to the repository folder and execute a doctest as well as build the documentation:
 
     cd documentation
+    
+Uncomment in `pylib/mod.py` the following code
+
+    >>> # import pylib
+
+Execute the doctest:
+
+    make doctest
+
+Build the HTML documentation:
+
     make html
+
+The HTML documents are found in `_build`.
 
     
 ## First Steps
