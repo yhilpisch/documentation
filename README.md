@@ -44,7 +44,7 @@ Navigate to the repository folder and execute a doctest as well as build the doc
     
 Uncomment in `pylib/mod.py` the following code
 
-    >>> # import pylib
+    >>> # from pylib import *
 
 Execute the doctest:
 

@@ -7,7 +7,7 @@ import doctest
 
 def three(x):
     ''' Simple function.
-    
+
     :Parameters:
         x: float
             input number
@@ -24,7 +24,7 @@ def three(x):
         >>> three(10)
         30
         >>> three(20)
-        50
+        60
         >>> three('python')
         Traceback (most recent call last):
             ...

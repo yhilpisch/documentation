@@ -6,6 +6,7 @@
 #
 import doctest
 
+
 def two(x):
     ''' Simple function.
 

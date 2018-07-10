@@ -1,5 +1,5 @@
-Modules
-=======
+The Modules
+===========
 
 This part of the documentation is automatically generated.
 
