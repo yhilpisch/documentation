@@ -23,7 +23,7 @@ def one(x):
             if x is not a number
 
     :Examples:
-        >>> from pylib import *
+        >>> # from pylib import *
         >>> one(10)
         10
         >>> one(20)

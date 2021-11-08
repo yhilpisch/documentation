@@ -1,5 +1,5 @@
 #
-# pylib Example
+# pylib Example (Documentation)
 #
 # The Python Quants GmbH
 #
