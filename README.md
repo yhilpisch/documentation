@@ -1,3 +1,23 @@
+# Python Tools & Skills
+
+**Distribution (Documentation)**
+
+Dr. Yves J. Hilpisch | The Python Quants GmbH
+
+Certificate Programs, November 2021
+
+(short link to this Git repository: http://bit.ly/ts_docu)
+
+
+<img src="http://hilpisch.com/tpq_viz.png" width=300px>
+
+
+## Slides
+
+You find the slides under:
+
+https://certificate.tpq.io/tools_skills_dist.pdf
+
 # pylib &mdash; Documentation
 
 This is the rather simplistic documentation example from the Tools & Skills class of The Python Quants.
@@ -28,7 +48,7 @@ A valuable add-on is the `nbsphinx` extension which allows you to directly inclu
 
 On the shell, create an environment with `conda`:
 
-    conda create -n docu-pylib python=3.6 ipython jupyter pandoc
+    conda create -n docu-pylib python=3.9 ipython jupyter pandoc
     conda activate docu-pylib
     pip install sphinx nbsphinx
 

@@ -20,13 +20,13 @@ sys.path.insert(0, os.path.abspath('.'))
 # -- Project information -----------------------------------------------------
 
 project = 'pylib'
-copyright = '2018, yves'
+copyright = '2021, yves'
 author = 'yves'
 
 # The short X.Y version
 version = ''
 # The full version, including alpha/beta/rc tags
-release = '0.1'
+release = '0.15'
 
 
 # -- General configuration ---------------------------------------------------
