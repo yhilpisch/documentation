@@ -18,7 +18,24 @@ You find the slides under:
 
 https://certificate.tpq.io/tools_skills_dist.pdf
 
-# pylib &mdash; Documentation
+
+## Docker Container
+
+Using a Docker container should simplify working with the tools presented in this part of the class. You should clone the Git repository via
+
+    git clone --depth=1 https://github.com/yhilpisch/documentation
+
+Then navigate to the folder of the Git repository (`documentation`) and run:
+
+    docker run -ti -h tools -p 9999:9999 -v $(pwd):/root/git ubuntu:latest /bin/bash
+
+In the Docker container, to install the tools required execute:
+
+    cd /root/git
+    bash install.sh
+
+
+## pylib &mdash; Documentation
 
 This is the rather simplistic documentation example from the Tools & Skills class of The Python Quants.
 
