@@ -13,6 +13,7 @@ apt-get install -y tree vim git man less
 
 # Python3 via Linux
 apt-get install -y python3 python3-pip
+apt-get install python-is-python3
 pip3 install pip --upgrade
 # pip install numpy pandas scipy
 # pip install matplotlib xarray
