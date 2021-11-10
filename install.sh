@@ -8,6 +8,7 @@ apt-get update
 apt-get upgrade -y
 
 # Linux System Tools
+apt-get install -y pandoc
 apt-get install -y wget screen htop
 apt-get install -y tree vim git man less
 
